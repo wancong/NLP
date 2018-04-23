@@ -8,7 +8,7 @@
 ##### 5 直接gensim.models.word2vec.LineSentence效果不好
 ##### 6 手工切分句子。原始材料行宽有限，错误的截断。
 ##### 7 一行行分词。测试了jieba和thulac
-##### 8 仿gensim的hello world示例
+##### 8 gensim的使用
 ##### 9 测试tf-idf
 ##### 10 gensim的word2vec
 ##### 11 各种测试。原理很简单，代码很直白，但感觉效果很强大。‘成吉思汗’和‘铁木真’亲近度高达0.95
