@@ -1,7 +1,7 @@
 # NLP
 ---
 ## 00 note
-NLP笔记，每天更新
+NLP笔记
 ## 01 射雕英雄传
 tf-idf,word2vec, jieba, gensim在《射雕英雄传》的应用  
 郭靖 + 黄蓉 - 杨康 = ？  
