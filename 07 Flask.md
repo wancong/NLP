@@ -41,3 +41,12 @@ Event: 0.054 Thread 0x00007fdb84046800 Exception <a 'java/lang/NoSuchMethodError
 
 **java_class_path (initial):** /home/wancong/projects/flask/examples/javascript/venv/lib/python3.5/site-packages/pyhanlp/static/hanlp-1.6.3.jar:/home/wancong/projects/flask/examples/javascript/venv/lib/python3.5/site-packages/pyhanlp/static  
 Launcher Type: generic  
+
+解决办法：  
+<pre>
+import jpype
+
+if not jpype.isThreadAttachedToJVM():
+    jpype.attachThreadToJVM()
+xxx = jpype.JClass("... .xxx")
+</pre>
